@@ -59,6 +59,7 @@ export const RecipeFinder = () => {
 
       <Form className="mb-4">
         <Row>
+
           <Col md={6} className="mb-3">
             <Form.Control
               type="text"
@@ -68,6 +69,7 @@ export const RecipeFinder = () => {
               style={{ backgroundColor: '#f2f2f2', border: 'none' }}
             />
           </Col>
+
           <Col md={2} className="mb-3">
             <Form.Select
               name="cuisine"
@@ -81,6 +83,7 @@ export const RecipeFinder = () => {
               <option value="asian">Asian</option>
             </Form.Select>
           </Col>
+
           <Col md={2} className="mb-3">
             <Form.Select
               name="diet"
@@ -94,6 +97,7 @@ export const RecipeFinder = () => {
               <option value="gluten-free">Gluten-Free</option>
             </Form.Select>
           </Col>
+          
           <Col md={2} className="mb-3">
             <Button
               variant="primary"
